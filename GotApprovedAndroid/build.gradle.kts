@@ -46,9 +46,9 @@ dependencies {
     val navVersion = "2.5.3"
 
     implementation(project(":shared"))
-    implementation("androidx.compose.ui:ui:1.3.3")
-    implementation("androidx.compose.ui:ui-tooling:1.3.3")
-    implementation("androidx.compose.ui:ui-tooling-preview:1.3.3")
+    implementation("androidx.compose.ui:ui:1.4.3")
+    implementation("androidx.compose.ui:ui-tooling:1.4.3")
+    implementation("androidx.compose.ui:ui-tooling-preview:1.4.3")
     implementation("androidx.compose.foundation:foundation:1.3.1")
     implementation("androidx.compose.material:material:1.3.1")
     implementation("androidx.activity:activity-compose:1.6.1")
@@ -78,9 +78,9 @@ dependencies {
     implementation(libs.androidx.compose.materialWindow)
     implementation(libs.androidx.compose.material.iconsExtended)
 //
-//    implementation(libs.androidx.lifecycle.runtime)
-//    implementation(libs.androidx.lifecycle.viewModelCompose)
-//    implementation(libs.androidx.lifecycle.runtime.compose)
+    implementation(libs.androidx.lifecycle.runtime)
+    implementation(libs.androidx.lifecycle.viewModelCompose)
+    implementation(libs.androidx.lifecycle.runtime.compose)
 //    implementation(libs.androidx.navigation.compose)
 //
 //    implementation(libs.androidx.activity.compose)
